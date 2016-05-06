@@ -1,28 +1,40 @@
-name: robbins
-favicon: null
-layout_spectrum: 0.0322170986328274
-typography_spectrum: 0.8322615511715412
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+layout_spectrum: 0
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
-  brandColors:
-    - '#FF6700'
-    - '#EBEBEB'
-    - '#C0C0C0'
-    - '#3A6EA5'
-    - '#004E98'
+  saturation: 0.9819539457093924
   brandStrength: 0.8983761761337519
   lightness: 0.9863672754727304
-  saturation: 0.9819539457093924
+  brandColors:
+    - '#010101'
+    - '#CDDDEE'
+    - '#8291A6'
+    - '#646A7A'
+    - '#1B60A0'
   rhythmicContrast: 0.4263924283441156
-purpose: []
+typography_spectrum: 0.8322615511715412
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: robbins
